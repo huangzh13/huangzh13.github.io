@@ -1,0 +1,55 @@
+baseURL = "https://huangzh13.github.io/"
+languageCode = "zh-cn"
+title = "Wuzhi Huang"
+theme = "stack"
+
+enableRobotsTXT = true
+
+[params]
+  mainSections = ["posts"]
+  featuredImageField = "image"
+  rssFullContent = true
+
+  [pagination]
+    pagerSize = 10
+
+  [params.footer]
+    since = 2026
+
+  [params.dateFormat]
+    published = "2006-01-02"
+    lastUpdated = "2006-01-02"
+
+  [params.sidebar]
+    emoji = "🧠"
+    subtitle = "技术 · 系统 · 长期主义"
+
+    [params.sidebar.avatar]
+      enabled = true
+
+  [params.article]
+    math = false
+    toc = true
+    readingTime = true
+
+  [params.widgets]
+    homepage = [
+      { type = "search" },
+      { type = "archives" },
+      { type = "tag-cloud" }
+    ]
+
+    page = [
+      { type = "toc" }
+    ]
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
