@@ -18,7 +18,7 @@ showDate = true
 showAuthor = true
 showReadingTime = true
 
-image = ""
+image = "cover.png"
 
 slug = ""
 +++
@@ -28,7 +28,7 @@ slug = ""
 hugo new posts/hello-hugo/index.md
 ```
 
-结构
+### 结构
 ```
 content/posts/hello-hugo/
 ├── index.md
@@ -37,13 +37,13 @@ content/posts/hello-hugo/
 ```
 
 ### tags/categories
+```
 tags：技术点（hugo / kde / arch）
-
 categories：文章类型（notes / config / review）
+```
 
 ### image
 这是 卡片头图 / OpenGraph 图：
-
 image = "cover.png"
 
 对应路径：
