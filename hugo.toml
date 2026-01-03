@@ -1,7 +1,10 @@
 baseURL = "https://huangzh13.github.io/"
 languageCode = "zh-cn"
 title = "Wuzhi Huang"
-theme = "stack"
+
+[module]
+  [[module.imports]]
+    path = "github.com/CaiJimmy/hugo-theme-stack/v3"
 
 enableRobotsTXT = true
 
