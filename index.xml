@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Wuzhi Huang</title><link>https://huangzh13.github.io/</link><description>Recent content on Wuzhi Huang</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 03 Jan 2026 14:44:42 +0800</lastBuildDate><atom:link href="https://huangzh13.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>创建 Posts 的模板</title><link>https://huangzh13.github.io/posts/hello-hugo/</link><pubDate>Sat, 03 Jan 2026 14:44:42 +0800</pubDate><guid>https://huangzh13.github.io/posts/hello-hugo/</guid><description>&lt;h2 id="创建新文章"&gt;创建新文章
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Wuzhi Huang</title><link>https://huangzh13.github.io/</link><description>Recent content on Wuzhi Huang</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 03 Jan 2026 14:44:42 +0800</lastBuildDate><atom:link href="https://huangzh13.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>创建 Posts 的模板</title><link>https://huangzh13.github.io/posts/hello-hugo/</link><pubDate>Sat, 03 Jan 2026 14:44:42 +0800</pubDate><guid>https://huangzh13.github.io/posts/hello-hugo/</guid><description>&lt;img src="https://huangzh13.github.io/posts/hello-hugo/cover.png" alt="Featured image of post 创建 Posts 的模板" /&gt;&lt;h2 id="创建新文章"&gt;创建新文章
 &lt;/h2&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo new posts/hello-hugo/index.md
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;结构&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;content/posts/hello-hugo/
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="结构"&gt;结构
+&lt;/h3&gt;&lt;pre tabindex="0"&gt;&lt;code&gt;content/posts/hello-hugo/
 ├── index.md
 ├── cover.png # 可选
 └── images/ # 可选
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id="tagscategories"&gt;tags/categories
-&lt;/h3&gt;&lt;p&gt;tags：技术点（hugo / kde / arch）&lt;/p&gt;
-&lt;p&gt;categories：文章类型（notes / config / review）&lt;/p&gt;
-&lt;h3 id="image"&gt;image
-&lt;/h3&gt;&lt;p&gt;这是 卡片头图 / OpenGraph 图：&lt;/p&gt;
-&lt;p&gt;image = &amp;ldquo;cover.png&amp;rdquo;&lt;/p&gt;
+&lt;/h3&gt;&lt;pre tabindex="0"&gt;&lt;code&gt;tags：技术点（hugo / kde / arch）
+categories：文章类型（notes / config / review）
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="image"&gt;image
+&lt;/h3&gt;&lt;p&gt;这是 卡片头图 / OpenGraph 图：
+image = &amp;ldquo;cover.png&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;对应路径：&lt;/p&gt;
 &lt;pre tabindex="0"&gt;&lt;code&gt;content/posts/xxx/
 ├── index.md
